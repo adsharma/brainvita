@@ -76,7 +76,7 @@ func (b Board) isBoardCountOne() bool {
 			}
 		}
 	}
-	return true
+	return b.board[3][3]
 }
 
 func (b *Board) move(action moveAction) {
